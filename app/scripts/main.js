@@ -17,5 +17,5 @@ require.config({
 });
 
 require(['views/app'], function(AppView) {
-    new AppView();
+    new AppView;
 });
