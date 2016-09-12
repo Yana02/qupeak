@@ -1,1 +1,1 @@
-# qupeak
+# QuPeak
