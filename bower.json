@@ -1,10 +1,14 @@
 {
-    "name": "qupeak",
-    "version": "1.0.0",
-    "dependencies": {
-        "jquery": "latest",
-        "backbone": "latest",
-        "underscore": "latest",
-        "requirejs": "^2.3.1"
-    }
+  "name": "qupeak",
+  "version": "1.0.0",
+  "dependencies": {
+    "jquery": "latest",
+    "backbone": "latest",
+    "underscore": "latest",
+    "requirejs": "^2.3.1",
+    "backbone.marionette": "marionette#^3.0.0",
+    "bootstrap": "latest",
+    "bootstrap-material-design": "latest",
+    "toastr": "latest"
+  }
 }
