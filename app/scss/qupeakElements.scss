@@ -106,34 +106,46 @@ footer {
     text-transform: none;
     letter-spacing: 1px;
     transition-duration: .6s;
-    .btn-default {
-        background-color: #199DDC;
-        border: 1px solid #199DDC;
-        color: #fff;
-    }
-    .btn-green {
-        background-color: #24c6a1;
-        border: 1px solid #24c6a1;
-        color: #fff;
-    }
-    .btn-orange {
-        background-color: #ffa350;
-        border: 1px solid #ffa350;
-        color: #fff;
-    }
-    .btn-pink {
-        background-color: #ff6490;
-        border: 1px solid #ff6490;
-        color: #fff;
-    }
-    .btn-red {
-        background-color: #AD2625;
-        border: 1px solid #AD2625;
-        color: #fff;
-    }
-    .btn-violete {
-        background-color: #8d91ff;
-        border: 1px solid #8d91ff;
-        color: #fff;
-    }
+}
+
+.btn-default {
+    @extend .qupeak-btn;
+    background-color: #199DDC;
+    border: 1px solid #199DDC;
+    color: #fff;
+}
+
+.btn-green {
+    @extend .qupeak-btn;
+    background-color: #24c6a1;
+    border: 1px solid #24c6a1;
+    color: #fff;
+}
+
+.btn-orange {
+    @extend .qupeak-btn;
+    background-color: #ffa350;
+    border: 1px solid #ffa350;
+    color: #fff;
+}
+
+.btn-pink {
+    @extend .qupeak-btn;
+    background-color: #ff6490;
+    border: 1px solid #ff6490;
+    color: #fff;
+}
+
+.btn-red {
+    @extend .qupeak-btn;
+    background-color: #AD2625;
+    border: 1px solid #AD2625;
+    color: #fff;
+}
+
+.btn-violete {
+    @extend .qupeak-btn;
+    background-color: #8d91ff;
+    border: 1px solid #8d91ff;
+    color: #fff;
 }
