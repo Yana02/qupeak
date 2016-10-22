@@ -1,0 +1,145 @@
+<!Doctype html>
+<html lang="ru">
+    <head>
+        <meta name="google-site-verification" content="mctNjTKA9L2FBUpsnOZIr0UJqcS8qbQQButyOozV8qk" />
+
+        <meta charset="utf-8">
+        <meta name="author" content="Dmitry Kirsanov">
+        <meta name="copyright" content="QuOeak">
+        <base href="">
+        <!-- Mobile viewport optimization -->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, maximum-scale=1.0"/>
+        <meta name="HandheldFriendly" content="True"/>
+        <meta http-equiv="cleartype" content="on"/>
+
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+        <!-- Basic setup -->
+        <link rel="stylesheet" href="./app/vendor/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./app/vendor/bootstrap-material-design/dist/css/bootstrap-material-design.min.css">
+        <link rel="stylesheet" href="./app/vendor/bootstrap-material-design/dist/css/ripples.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <script src="./app/vendor/jquery/dist/jquery.min.js"></script>
+        <script src="./app/vendor/tether/dist/js/tether.min.js"></script>
+        <script src="./app/vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="./app/vendor/bootstrap-material-design/dist/js/material.min.js"></script>
+        <script src="./app/vendor/bootstrap-material-design/dist/js/ripples.min.js"></script>
+
+        <!-- - - - - - - - - - - - - - - - - - - - - - -  -->
+
+        <link href="./app/css/contacts.css" rel="stylesheet"/>
+        <link href="./app/css/filter-params.css" rel="stylesheet"/>
+        <link href="./app/css/ds.css" rel="stylesheet"/>
+        <link href="./app/css/general.css" rel="stylesheet"/>
+
+        <link href="./app/vendor/toastr/toastr.min.css" rel="stylesheet"/>
+        <script src="./app/vendor/toastr/toastr.min.js"></script>
+
+
+        <title>QuPeak</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+
+    </head>
+
+    <body>
+        <nav class="navbar">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">QuPeak</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="./index.htm">Home</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="./catalog.htm">Man</a></li>
+                        <li><a href="./catalog.htm">Children</a></li>
+                        <li><a href="./about.htm">About</a></li>
+                        <li class="active"><a href="./contacts.htm">Contacts</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                        <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                        <!--li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron">
+            <div class="text-center">
+                <h1>Contacts</h1>
+                <p>QuPeak is the canadian startup that aims to sell online the best fashion brands and great young brands</p>
+            </div>
+        </div>
+        <section class="container">
+            <div class="row text-left zero-margin">
+                <div class="col-md-6 col-xs-12 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d184551.80842853582!2d-79.51814158338807!3d43.718403861270694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2z0KLQvtGA0L7QvdGC0L4sINCe0L3RgtCw0YDRltC-LCDQmtCw0L3QsNC00LA!5e0!3m2!1suk!2sua!4v1475435152083" width="100%" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-12 col-xs-12 text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </div>
+                        <br>
+                        <div class="col-md-6 col-xs-12 zpl">
+                            <input class="fw" id="subject" placeholder="Subject of message" type="text">
+                        </div>
+                        <div class="col-md-6 col-xs-12 zpl">
+                            <input class="fw" id="mail" placeholder="Your e-mail" type="email">
+                        </div>
+                        <div class="col-md-12 col-xs-12 zpl">
+                            <textarea class="fw" rows="8" id="message" placeholder="Message"></textarea>
+                        </div>
+                        <div class="col-md-12 col-xs-12">
+                            <button type="button" class="btn btn-default" name="send">Send message</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="container-fluid text-center">
+            <div class="container">
+                <div class="row footer-content ">
+                    <div class="col-md-6 text-left">
+                        <div class="footer-navigation">
+                            QuPeak
+                        </div>
+                        <div class="footer-navigation">
+                            Main
+                        </div>
+                        <div class="footer-navigation">
+                            Women
+                        </div>
+                        <div class="footer-navigation">
+                            Man
+                        </div>
+                        <div class="footer-navigation">
+                            Children
+                        </div>
+                        <div class="footer-navigation">
+                            About
+                        </div>
+                        <div class="footer-navigation">
+                            Contacts
+                        </div>
+                    </div>
+                    <div class="col-md-6 text-right">
+                        © QuPeak All rights reserved
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

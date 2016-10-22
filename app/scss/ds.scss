@@ -1,0 +1,59 @@
+/*
+ *
+ * Minified box-model attributes
+ * z - zero
+ * p - padding
+ * m - margin
+ * t - top
+ * r - right
+ * b - bottom
+ * l - left
+ * f - full
+ * w - width
+ * h - height
+ *
+ */
+
+.zp {
+    padding: 0;
+}
+
+.zpt {
+    padding-top: 0;
+}
+
+.zpr {
+    padding-right: 0;
+}
+
+.zpb {
+    padding-bottom: 0;
+}
+
+.zpl {
+    padding-left: 0;
+}
+
+.zm {
+    margin: 0;
+}
+
+.zmt {
+    margin-top: 0;
+}
+
+.zmr {
+    margin-right: 0;
+}
+
+.zmb {
+    margin-bottom: 0;
+}
+
+.zml {
+    margin-left: 0;
+}
+
+.fw {
+    width: 100%;
+}

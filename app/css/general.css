@@ -1,0 +1,72 @@
+body {
+  font-family: Calibri, Arial, Tahoma;
+  background-color: #fff; }
+
+footer {
+  background-color: #23242d;
+  color: white;
+  margin-top: 40px; }
+
+.footer-content {
+  margin: 20px 0; }
+
+.footer-navigation {
+  float: left;
+  margin-right: 20px; }
+
+.navbar {
+  background-color: #23242d;
+  height: 50px;
+  margin-bottom: 0; }
+  .navbar .navbar-nav > li > a {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  .navbar .navbar-brand {
+    height: 30px;
+    line-height: 20px; }
+
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("http://wallpapercave.com/wp/mLoA3dT.jpg");
+  /* Temporary image */
+  background-size: cover; }
+
+.test {
+  background-color: green; }
+
+.qupeak-btn {
+  padding: 7px 10px;
+  font-size: 0.9em;
+  text-transform: none;
+  letter-spacing: 1px;
+  transition-duration: .6s; }
+  .qupeak-btn .btn-default {
+    background-color: #199DDC;
+    border: 1px solid #199DDC;
+    color: #fff; }
+    .qupeak-btn .btn-default:hover {
+      background-color: #0B7FB6;
+      border: 1px solid #12A0E3; }
+  .qupeak-btn .btn-green {
+    background-color: #24c6a1;
+    border: 1px solid #24c6a1;
+    color: #fff; }
+  .qupeak-btn .btn-orange {
+    background-color: #ffa350;
+    border: 1px solid #ffa350;
+    color: #fff; }
+  .qupeak-btn .btn-pink {
+    background-color: #ff6490;
+    border: 1px solid #ff6490;
+    color: #fff; }
+  .qupeak-btn .btn-red {
+    background-color: #AD2625;
+    border: 1px solid #AD2625;
+    color: #fff; }
+  .qupeak-btn .btn-violete {
+    background-color: #8d91ff;
+    border: 1px solid #8d91ff;
+    color: #fff; }
+
+/*# sourceMappingURL=general.css.map */

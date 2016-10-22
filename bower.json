@@ -1,14 +1,28 @@
 {
-  "name": "qupeak",
-  "version": "1.0.0",
+  "name": "QuPeak",
+  "homepage": "",
+  "authors": [
+    "Dmitry Kirsanov <extramid@gmail.com>"
+  ],
+  "description": "e-commerce",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "shop"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
-    "jquery": "latest",
-    "backbone": "latest",
-    "underscore": "latest",
-    "requirejs": "^2.3.1",
-    "backbone.marionette": "marionette#^3.0.0",
     "bootstrap": "latest",
-    "bootstrap-material-design": "latest",
-    "toastr": "latest"
+    "jquery": "latest",
+    "polymer": "Polymer/polymer#^1.2.0",
+    "toastr": "latest",
+    "css-calc-mixin": "*"
   }
 }

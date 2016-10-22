@@ -1,0 +1,113 @@
+body {
+  font-family: Calibri, Arial, Tahoma;
+  background-color: #fff; }
+
+footer {
+  background-color: #23242d;
+  color: white;
+  margin-top: 40px; }
+
+.footer-content {
+  margin: 20px 0; }
+
+.footer-navigation {
+  float: left;
+  margin-right: 20px; }
+
+.navbar {
+  background-color: #23242d;
+  height: 50px;
+  margin-bottom: 0; }
+
+.navbar .navbar-nav > li > a {
+  padding-top: 15px;
+  padding-bottom: 15px; }
+
+.navbar .navbar-brand {
+  height: 30px;
+  line-height: 20px; }
+
+.jumbotron {
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+/*
+ *
+ * Minified box-model attributes
+ * z - zero
+ * p - padding
+ * m - margin
+ * t - top
+ * r - right
+ * b - bottom
+ * l - left
+ * f - full
+ * w - width
+ * h - height
+ *
+ */
+.zp {
+  padding: 0; }
+
+.zpt {
+  padding-top: 0; }
+
+.zpr {
+  padding-right: 0; }
+
+.zpb {
+  padding-bottom: 0; }
+
+.zpl {
+  padding-left: 0; }
+
+.zm {
+  margin: 0; }
+
+.zmt {
+  margin-top: 0; }
+
+.zmr {
+  margin-right: 0; }
+
+.zmb {
+  margin-bottom: 0; }
+
+.zml {
+  margin-left: 0; }
+
+.fw {
+  width: 100%; }
+
+.qupeak-btn {
+  padding: 7px 10px;
+  font-size: 0.9em;
+  text-transform: none;
+  letter-spacing: 1px;
+  transition-duration: .6s; }
+  .qupeak-btn .btn-default {
+    background-color: #199DDC;
+    border: 1px solid #199DDC;
+    color: #fff; }
+  .qupeak-btn .btn-green {
+    background-color: #24c6a1;
+    border: 1px solid #24c6a1;
+    color: #fff; }
+  .qupeak-btn .btn-orange {
+    background-color: #ffa350;
+    border: 1px solid #ffa350;
+    color: #fff; }
+  .qupeak-btn .btn-pink {
+    background-color: #ff6490;
+    border: 1px solid #ff6490;
+    color: #fff; }
+  .qupeak-btn .btn-red {
+    background-color: #AD2625;
+    border: 1px solid #AD2625;
+    color: #fff; }
+  .qupeak-btn .btn-violete {
+    background-color: #8d91ff;
+    border: 1px solid #8d91ff;
+    color: #fff; }
+
+/*# sourceMappingURL=qupeakElements.css.map */
