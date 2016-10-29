@@ -113,6 +113,11 @@ footer {
     background-color: #199DDC;
     border: 1px solid #199DDC;
     color: #fff;
+    &:hover {
+        background-color: #007FBC;
+        border: 1px solid #199DDC;
+        color: white;
+    }
 }
 
 .btn-green {
@@ -120,6 +125,11 @@ footer {
     background-color: #24c6a1;
     border: 1px solid #24c6a1;
     color: #fff;
+    &:hover {
+        background-color: #05ad86;
+        border: 1px solid #24c6a1;
+        color: white;
+    }
 }
 
 .btn-orange {
@@ -127,6 +137,11 @@ footer {
     background-color: #ffa350;
     border: 1px solid #ffa350;
     color: #fff;
+    &:hover {
+        background-color: #e7842b;
+        border: 1px solid #ffa350;
+        color: white;
+    }
 }
 
 .btn-pink {
@@ -134,6 +149,11 @@ footer {
     background-color: #ff6490;
     border: 1px solid #ff6490;
     color: #fff;
+    &:hover {
+        background-color: #f04273;
+        border: 1px solid #ff6490;
+        color: white;
+    }
 }
 
 .btn-red {
@@ -141,6 +161,11 @@ footer {
     background-color: #AD2625;
     border: 1px solid #AD2625;
     color: #fff;
+    &:hover {
+        background-color: #8A0E0D;
+        border: 1px solid #AD2625;
+        color: white;
+    }
 }
 
 .btn-violete {
@@ -148,4 +173,9 @@ footer {
     background-color: #8d91ff;
     border: 1px solid #8d91ff;
     color: #fff;
+    &:hover {
+        background-color: #6569e0;
+        border: 1px solid #8d91ff;
+        color: white;
+    }
 }
